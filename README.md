@@ -1,32 +1,33 @@
-# WEB102 Prework - *Name of App Here*
+# WEB102 Prework - *WEB102_Prework*
 
-Submitted by: **Your Name Here**
+Submitted by: **Yan Lu**
 
-**Name of your app** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
+**WEB102-Prework** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
-Time spent: **X** hours spent in total
+Time spent: **20** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-* [ ] The introduction section explains the background of the company and how many games remain unfunded.
-* [ ] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
-* [ ] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
-* [ ] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
+* [ x] The introduction section explains the background of the company and how many games remain unfunded.
+* [x ] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
+* [ x] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
+* [x ] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
 
 The following **optional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
+* [x ] List anything else that you can get done to improve the app functionality!
+      Search box and search button for users to search game by name. 
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/dL1r5cs.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with Kap  
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -34,7 +35,7 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+It took me a while to figure out how to make each game image within the game card. "class game-img" needs to be added to index.js file, before .game-img section in style.css can have any impact on the width of game images. 
 
 ## License
 
